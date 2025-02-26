@@ -1,16 +1,27 @@
 # assignment_test
 
-A new Flutter project.
+## Overview
+This Flutter project implements a **nested list** where each person can have multiple children up to four levels deep. It uses **Bloc** for state management to handle updates persistently.
 
-## Getting Started
+## Features
+- **Nested List (4 Levels)** – Each person can have multiple children.
+- **Edit & Update** – Modify a person's name and age.
+- **State Management** – Uses Bloc for efficient updates.
+- **Expandable UI** – Arrow icons to expand/collapse children.
 
-This project is a starting point for a Flutter application.
+## Running the App
+```sh
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Adding More Children
+Modify the `Person` object in `LoadPeople` and ensure `_updatePeopleList` updates deeply.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Download APK
+You can download the latest APK from the link below:
+[Download APK](https://we.tl/t-fhTAMwDKL6)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contributing
+Feel free to improve this project and submit a PR! 🚀
+
